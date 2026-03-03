@@ -1,2 +1,8 @@
 fastapi
+#server
 uvicorn
+
+#ORM
+sqlalchemy
+#postgres dependency
+psycopg
