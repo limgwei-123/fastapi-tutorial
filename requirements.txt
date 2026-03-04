@@ -6,3 +6,14 @@ uvicorn
 sqlalchemy
 #postgres dependency
 psycopg
+
+#auth
+
+#use of hash password
+passlib[argon2]
+#use for create jwt token
+python-jose[cryptography]
+#use for pass data from that form
+python-multipart
+#email column for user validate(check email format)
+pydantic[email]
